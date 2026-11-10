@@ -157,10 +157,10 @@ footer .cp{display:flex;justify-content:space-between;align-items:center;gap:16p
 .by{display:inline-flex;align-items:center;gap:12px;color:var(--mute);font-size:13px;transition:.5s var(--ez)}.by img{height:18px;width:auto;opacity:.75;transition:.5s var(--ez)}.by:hover,.by:hover img{color:#fff;opacity:1}
 
 /* héro animé au scroll */
-.cine{position:relative;height:900vh}
+.cine{position:relative;height:1000vh}
 .cs{position:sticky;top:0;height:100svh;overflow:hidden;background:#000}
 .cs .l{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;will-change:opacity}
-.cs #cpol,.cs #cv2,.cs #ccou,.cs #cgou{opacity:0}
+.cs #cpol,.cs #cv2,.cs #ccou,.cs #ccom,.cs #cv3{opacity:0}
 #cline{position:absolute;top:0;bottom:0;width:2px;background:#fff;box-shadow:0 0 22px 4px rgba(255,255,255,.55);opacity:0}
 .cs .sh{position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(0,0,0,.4),transparent 30%,transparent 40%,rgba(0,0,0,.88) 100%)}
 .cin,.cph,.cf{position:absolute;left:0;right:0;bottom:0;padding-bottom:max(44px,env(safe-area-inset-bottom))}
@@ -174,4 +174,4 @@ footer .cp{display:flex;justify-content:space-between;align-items:center;gap:16p
 .cf .sub p{max-width:46ch;color:#c4c6ca;font-size:1.12rem;margin:0}.cf .acts{display:flex;gap:12px;flex-wrap:wrap}
 .cf .info{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:36px;padding-top:22px;border-top:1px solid var(--line)}
 .cf .info b{display:block;font:600 1.35rem var(--fd);letter-spacing:-.02em}.cf .info span{color:var(--mute);font-size:14px}
-@media(max-width:820px){.cine{height:700vh}.cf .sub p{font-size:1rem}.cf .info{grid-template-columns:1fr;gap:8px;margin-top:20px;padding-top:16px}.cf .info span{display:none}}
+@media(max-width:820px){.cine{height:760vh}.cf .sub p{font-size:1rem}.cf .info{grid-template-columns:1fr;gap:8px;margin-top:20px;padding-top:16px}.cf .info span{display:none}}
