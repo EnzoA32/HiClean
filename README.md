@@ -5,6 +5,7 @@ Site statique (HTML, CSS, JS), sans étape de build.
 ```
 index.html      pages : accueil, tarifs, galerie, réservation (navigation par #ancres)
 style.css       styles
+cine.js         héro animé au scroll (vidéos pilotées par le scroll)
 script.js       animations, galerie, formulaire, tarifs
 assets/         images, logo et vidéo
 ```
@@ -21,3 +22,8 @@ Les prix apparaissent sur la page Tarifs et dans le récapitulatif de réservati
 - Remplacer les photos Unsplash par celles du client (voir `assets/`).
 - Vérifier l'adresse e-mail de réception (`contact@hiclean.be`) dans `script.js` et `index.html`.
 - Pour un meilleur référencement, passer à de vraies URLs (/tarifs, /galerie, /reservation) avec un titre et une description par page.
+
+## Héro animé
+Le héro (`#cine`) enchaîne 5 étapes au scroll : lavage, zoom, polissage, pose de céramique, gouttes. Fichiers : `assets/cine-*.webp` et `assets/cine-zoom.mp4`, `assets/cine-ceramique.mp4` (encodés image-clé à chaque image pour un scrub fluide).
+- Les deux vidéos portent encore le filigrane Kling : à remplacer par des exports sans filigrane avant la mise en ligne (mêmes noms de fichiers).
+- La durée du scroll se règle avec `height` de `.cine` dans `style.css` (900vh desktop, 700vh mobile).

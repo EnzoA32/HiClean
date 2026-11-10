@@ -15,11 +15,22 @@
 <nav id="nav"><div class="w"><a href="#accueil" aria-label="HiClean, accueil"><img src="assets/logo-hiclean.png" alt="HiClean Detailing"></a><button class="mb" aria-label="Menu" aria-expanded="false"><span></span><span></span></button><div class="nl"><a href="#accueil">Accueil</a><a href="#services">Services</a><a href="#tarifs">Tarifs</a><a href="#galerie">Galerie</a><a class="btn p" href="#reserver">Réserver</a></div></div></nav>
 
 <main id="home">
-<header class="hero">
-<img src="assets/hero-audi-tt-rs.webp" alt="Audi TT RS dans un tunnel en béton, vue de face">
-<div class="w"><h1 id="h1">Polissage, céramique et detailing automobile dans le Hainaut</h1>
-<div class="sub hi" style="--d:1s"><p>Un résultat comme la première fois : nous redonnons à votre véhicule son état de sortie de concession, à domicile ou en entrepôt. Detailing intérieur et extérieur, polissage de la peinture et traitement céramique pour particuliers et professionnels.</p><div class="acts"><a class="btn p" href="#reserver">Réserver mon créneau</a><a class="btn" href="tel:+32474876521">0474 87 65 21</a></div></div>
-<div class="info hi" style="--d:1.2s"><div><b>+700</b><span>voitures passées entre nos mains</span></div><div><b>Domicile ou entrepôt</b><span>Vous choisissez le lieu</span></div><div><b>Tout le Hainaut</b><span>Mons, Charleroi, Tournai…</span></div></div></div>
+<header class="cine" id="cine">
+<div class="cs">
+<video class="l" id="cv1" src="assets/cine-zoom.mp4" poster="assets/cine-propre.webp" muted playsinline preload="auto" aria-hidden="true"></video>
+<img class="l" id="cpol" src="assets/cine-poli.webp" alt="" aria-hidden="true">
+<video class="l" id="cv2" src="assets/cine-ceramique.mp4" poster="assets/cine-goutte.webp" muted playsinline preload="auto" aria-hidden="true"></video>
+<img class="l" id="ccou" src="assets/cine-couche.webp" alt="" aria-hidden="true">
+<img class="l" id="cgou" src="assets/cine-gouttes.webp" alt="Gouttes d’eau perlant sur une peinture protégée par un traitement céramique">
+<img class="l" id="cdirty" src="assets/cine-sale.webp" alt="Voiture de sport bleu nuit sale dans un atelier de detailing">
+<i id="cline"></i><div class="sh"></div>
+<div class="cin"><div class="w"><h1 id="h1">Polissage, céramique et detailing automobile dans le Hainaut</h1><p class="hint">Faites défiler pour voir le résultat</p></div></div>
+<div class="cph" id="cp1"><div class="w"><small>Étape 1 · Lavage</small><h2>Du sale au parfait.</h2></div></div>
+<div class="cph" id="cp2"><div class="w"><small>Étape 2 · Polissage</small><h2>Les micro-rayures disparaissent.</h2></div></div>
+<div class="cph" id="cp3"><div class="w"><small>Étape 3 · Céramique</small><h2>Une protection qui perle.</h2></div></div>
+<div class="cf" id="cf"><div class="w"><div class="sub"><p>Un résultat comme la première fois : nous redonnons à votre véhicule son état de sortie de concession, à domicile ou en entrepôt. Detailing intérieur et extérieur, polissage de la peinture et traitement céramique pour particuliers et professionnels.</p><div class="acts"><a class="btn p" href="#reserver">Réserver mon créneau</a><a class="btn" href="tel:+32474876521">0474 87 65 21</a></div></div>
+<div class="info"><div><b>+700</b><span>voitures passées entre nos mains</span></div><div><b>Domicile ou entrepôt</b><span>Vous choisissez le lieu</span></div><div><b>Tout le Hainaut</b><span>Mons, Charleroi, Tournai…</span></div></div></div></div>
+</div>
 </header>
 
 <section class="sec c" id="services"><div class="w">
@@ -147,5 +158,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
 <script src="script.js"></script>
+<script src="cine.js"></script>
 </body>
 </html>
