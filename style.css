@@ -160,7 +160,7 @@ footer .cp{display:flex;justify-content:space-between;align-items:center;gap:16p
 .cine{position:relative;height:1000vh}
 .cs{position:sticky;top:0;height:100svh;overflow:hidden;background:#000}
 .cs .l{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;will-change:opacity}
-.cs #cpol,.cs #cv2,.cs #ccou,.cs #ccom,.cs #cv3{opacity:0}
+.cs #cpol,.cs #cv2,.cs #cv4,.cs #cv3{opacity:0}
 #cline{position:absolute;top:0;bottom:0;width:2px;background:#fff;box-shadow:0 0 22px 4px rgba(255,255,255,.55);opacity:0}
 .cs .sh{position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(0,0,0,.4),transparent 30%,transparent 40%,rgba(0,0,0,.88) 100%)}
 .cin,.cph,.cf{position:absolute;left:0;right:0;bottom:0;padding-bottom:max(44px,env(safe-area-inset-bottom))}
